@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Ensayando</title>
+  </head>
+
+  <body>
+    <h1><strong>Mi lista ordenada</strong></h1>
+    <div class="orderList">
+      <ol>
+        <li>Primer elemento de mi lista ordenada</li>
+        <li>Primer elemento de mi lista ordenada</li>
+        <li>Primer elemento de mi lista ordenada</li>
+      </ol>
+    </div>
+
+    <hr />
+
+    <h1><em>Mi lista NO ordenada</em></h1>
+    <div class="unorderedList">
+      <ul>
+        <li>Primer elemento de mi lista no ordenada</li>
+        <li>Segundo elemento de mi lista no ordenada</li>
+        <li>
+          Tercer elemento de mi lista
+          <span id="spanPersonalizado"> no ordenada </span>
+        </li>
+      </ul>
+    </div>
+<hr/>
+
+<h1>MI TABLA</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+
+          <th>Edad</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Rosa</td>
+          <td>19</td>
+        </tr>
+        <tr>
+          <td>Luis</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <td>Andrea</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <td>Oscar</td>
+          <td>35</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <h1>MI FORMULARIO</h1>
+    <form action="#" method="post">
+      <fieldset>
+        <label for="nombre"
+          >Nombre
+          <input type="text" name="nombre" id="nombre" value="" />
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label for="lastname"
+          >Apellido
+          <input type="text" name="apellido" id="lastname" value="" />
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label for="correito">
+          Correo
+          <input type="email" name="correo" id="correito" value="" />
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label>Color
+        <select name="color" id="color">
+          <option>Red</option>
+          <option>Blue</option>
+          <option>Yellow</option>
+          <option>Pink</option>
+          <option>Black</option>
+          <option>White</option>
+        </select>
+    </label>
+      </fieldset>
+
+      <fieldset>
+        <label for="radio-S">Talla S</label>
+        <input type="radio" name="radio" id="radio-S" value="" />
+        <label for="radio-M">Talla M</label>
+        <input type="radio" name="radio" id="radio-M" value="" />
+        <label for="radio-L">Talla L</label>
+        <input type="radio" name="radio" id="radio-L" value="" />
+      </fieldset>
+
+      <fieldset>
+        <label>
+          Comentarios
+          <textarea name="coment" rows="5" cols="20"> </textarea>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <input type="submit" value="Pedir" />
+      </fieldset>
+    </form>
+  </body>
+</html>
