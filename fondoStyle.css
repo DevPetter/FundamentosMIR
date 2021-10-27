@@ -1,0 +1,10 @@
+.background{
+    width: 800px;
+    height: 400px;
+    background-color: rgb(203, 240, 227);
+    background-image: url('./fondo.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 800px 400px;
+    
+}
